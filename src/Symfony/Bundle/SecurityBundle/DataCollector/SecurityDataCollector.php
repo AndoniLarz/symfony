@@ -218,7 +218,7 @@ class SecurityDataCollector extends DataCollector implements LateDataCollectorIn
      */
     public function isEnabled(): bool
     {
-        return $this->data['enabled'];
+        return true;
     }
 
     /**
